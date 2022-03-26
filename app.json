@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "react_native_chapter_02_project_01",
+    "slug": "react_native_chapter_02_project_01",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "react_native_chapter_02_project_01"
+}
