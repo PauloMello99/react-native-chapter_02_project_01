@@ -8,14 +8,8 @@ import {
 import * as AuthSession from "expo-auth-session";
 import * as AppleAuthentication from "expo-apple-authentication";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { USER_DATA } from "../utils/storage";
-
-interface User {
-  id: string;
-  name: string;
-  email: string;
-  photo?: string;
-}
+import { USER_DATA } from "../../utils/storage";
+import { User } from "../../interfaces/User";
 
 export interface AuthContextData {
   user: User;

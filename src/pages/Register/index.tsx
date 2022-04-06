@@ -132,6 +132,7 @@ function Register() {
               />
             </TransactionTypes>
             <CategorySelectButton
+              testID="category-button"
               label={category?.name || "Selecione a categoria"}
               onPress={handleOpenCategoryModal}
             />
@@ -140,7 +141,11 @@ function Register() {
           <Button label="Enviar" onPress={handleSubmit(handleRegister)} />
         </Form>
 
-        <Modal visible={showCategoryModal} onDismiss={handleCloseCategoryModal}>
+        <Modal
+          testID="category-modal"
+          visible={showCategoryModal}
+          onDismiss={handleCloseCategoryModal}
+        >
           <CategorySelect
             onClose={handleCloseCategoryModal}
             setCategory={setCategory}
