@@ -1,11 +1,6 @@
 import React from "react";
 import { TextInputProps } from "react-native";
-import {
-  Control,
-  Controller,
-  FieldError,
-  useController,
-} from "react-hook-form";
+import { Control, FieldError, useController } from "react-hook-form";
 
 import Input from "../Input";
 

@@ -1,6 +1,4 @@
 import "react-native-gesture-handler";
-import "jest-styled-components";
-import "jest-fetch-mock";
 
 import { registerRootComponent } from "expo";
 

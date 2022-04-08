@@ -3,9 +3,9 @@ import { ActivityIndicator, Alert, Platform } from "react-native";
 import { RFValue } from "react-native-responsive-fontsize";
 import { useTheme } from "styled-components/native";
 
-import AppleSvg from "../../assets/apple.svg";
-import GoogleSvg from "../../assets/google.svg";
-import LogoSvg from "../../assets/logo.svg";
+import AppleSvg from "../../../assets/apple.svg";
+import GoogleSvg from "../../../assets/google.svg";
+import LogoSvg from "../../../assets/logo.svg";
 import SignInSocialButton from "../../components/SignInSocialButton";
 import { useAuth } from "../../contexts/auth";
 
